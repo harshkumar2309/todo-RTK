@@ -8,8 +8,7 @@ function Todos() {
     const dispatch = useDispatch()
   return (
     <>
-      <div className="mt-12 text-white font-bold text-3xl">Todos</div>
-      <ul className="list-none">
+      <ul className="list-none mt-12">
         {todos.map((todo) => (
           <li
             className="mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded"
